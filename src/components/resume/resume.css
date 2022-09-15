@@ -1,4 +1,4 @@
-.resume__container{
+.resume__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.875rem;
 }
@@ -11,17 +11,17 @@
     box-shadow: var(--shadow);
 }
 
-.timeline__item{
+.timeline__item {
     position: relative;
     padding-left: 3.125rem;
     padding-bottom: 3.125rem;
 }
 
-.timeline__item:last-child{
+.timeline__item:last-child {
     padding-bottom: 0;
 }
 
-.timeline__item::before{
+.timeline__item::before {
     content: '';
     width: 1px;
     height: 100%;
@@ -31,7 +31,8 @@
     top: 0;
 }
 
-.timeline .icon-briefcase, .timeline .icon-graduation {
+.timeline .icon-briefcase,
+.timeline .icon-graduation {
     position: absolute;
     left: -0.4375rem;
     top: 0;
@@ -41,41 +42,58 @@
     padding: 0.4375rem 0;
 }
 
-.timeline__date{
+.timeline__date {
     color: #8b88b1;
     font-size: var(--small-font-size);
 }
 
-.timeline__title{
+.timeline__title {
     font-size: var(--h3-font-size);
     margin: 0.5rem 0;
 }
 
+.sub__title {
+    margin-left: 0.875rem;
+    font-weight: var(--font-bold);
+    position: relative;
+    margin-bottom: 3.75rem;
+}
+
+.sub__title::before {
+    content: '';
+    background: url(../../assets/dots-bg.svg);
+    height: 2.25rem;
+    width: 2.25rem;
+    position: absolute;
+    left: -0.875rem;
+    top: -0.875rem;
+}
+
 @media screen and (max-width: 1024px) {
-    .resume__container{
+    .resume__container {
         grid-template-columns: 450px;
         justify-content: center;
         row-gap: 1.875rem;
     }
 
-    .timeline__item::before{
+    .timeline__item::before {
         left: 2px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .resume__container{
+    .resume__container {
         grid-template-columns: 1fr;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .timeline__item{
+    .timeline__item {
         padding-left: 1.875rem;
         padding-bottom: 1.875rem;
     }
 
-    .timeline__item::before{
+    .timeline__item::before {
         left: 0;
     }
 
@@ -84,7 +102,7 @@
         left: -9px;
     }
 
-    .timeline__text{
+    .timeline__text {
         text-align: justify;
     }
 }

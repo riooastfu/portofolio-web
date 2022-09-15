@@ -17,8 +17,8 @@ const About = () => {
                             Hi everyone, i'm Rio, junior front-end web and mobile developer also a fullstack developer wannabe 😂.
                             I live in Medan, Indonesia. I'm 22 years old. I'm a fresh graduate of bachelor's degree from Mikroskil University.<br /><br/>
                             I love computer since i was in junior high school. My favorite programming language is Javascript.
-                            Besides learning program, i love playing games too such as Apex Legends, Valorant, Dota 2 and more.
-                            That's all.
+                            Besides learning program, i love graphic design too like making vexel art, wpap, poster, logo and more!<br /><br/>
+                            Sometimes i playing games such as Apex legends, valorant and dota 2. That's all &#128517;.
                         </p>
                         {/* <a href="#download" className="btn">Download CV</a> */}
                     </div>

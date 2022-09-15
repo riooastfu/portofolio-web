@@ -9,6 +9,7 @@ import Portofolio from '../components/portofolio/portofolio';
 import Resume from '../components/resume/resume';
 import Sidebar from '../components/sidebar/sidebar';
 import Contact from '../components/contact/contact';
+import Gallery from '../components/gallery/Gallery';
 import Services from '../components/services/services';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Home />
         <About />
         <Portofolio />
+        <Gallery/>
         {/* <Services/> */}
         <Resume />
         
