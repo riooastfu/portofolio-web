@@ -8,10 +8,7 @@ import Home from '../components/home/home';
 import Portofolio from '../components/portofolio/portofolio';
 import Resume from '../components/resume/resume';
 import Sidebar from '../components/sidebar/sidebar';
-import Pricing from '../components/pricing/pricing';
-import Testimonials from '../components/testimonials/testimonials';
 import Contact from '../components/contact/contact';
-import Blog from '../components/blog/blog';
 import Services from '../components/services/services';
 
 function App() {
@@ -21,12 +18,10 @@ function App() {
       <main className='main'>
         <Home />
         <About />
-        <Services/>
-        <Resume />
         <Portofolio />
-        <Pricing />
-        <Testimonials />
-        <Blog />
+        {/* <Services/> */}
+        <Resume />
+        
         <Contact />
       </main>
     </>

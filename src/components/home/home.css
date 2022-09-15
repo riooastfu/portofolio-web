@@ -45,6 +45,10 @@
     width: 100%;
 }
 
+.home__scroll-name:hover{
+    color: hsl(43, 100%, 68%);
+}
+
 .home__scroll-name{
     font-size: var(--small-font-size);
 }
@@ -88,14 +92,6 @@
     top: .5rem;
     left: 50%;transform: translateX(-50%);
     animation: ani-mouse 2s linear infinite;
-}
-
-.shapes{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
 }
 
 .shape{
@@ -145,4 +141,11 @@
 .s11{
     bottom: 10%;
     right: 2%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .home__social-link{
+        font-size: 1.125rem;
+    }
 }
