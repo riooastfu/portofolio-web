@@ -6,6 +6,7 @@ import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";
 
 import Me from "../../assets/avatar-1.png"
+import cvDoc from "../../assets/doc/myCV.pdf"
 
 import "./home.css"
 
@@ -35,7 +36,7 @@ const Home = () => {
 
                 <Headersocials/>
 
-                <a href="#contact" className="btn"><i class="fa fa-cloud-download"></i> Download CV</a>
+                <a href={cvDoc} download="CVRio" className="btn" target='_blank'><i class="fa fa-cloud-download"></i> Download CV</a>
 
                 <ScrollDown/>
             </div>

@@ -26,6 +26,10 @@
     writing-mode: vertical-rl;
 }
 
+.nav__logo:hover{
+    color: hsl(43, 100%, 68%);
+}
+
 .nav__link {
     font-size: 1.35rem;
     color: var(--title-color);

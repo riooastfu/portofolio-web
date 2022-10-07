@@ -1,5 +1,5 @@
 .gallery__container{
-    column-count: 3;
+    column-count: 4;
     column-width: 33%;
     border-radius: var(--border-radius);
     background-color: var(--container-color);
@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 1024px) {
     .gallery__container{
-        grid-template-columns: repeat(2, 330px);
+        column-count: 2;
         justify-content: center;
         row-gap: 1.875rem;
     }

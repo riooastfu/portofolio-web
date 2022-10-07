@@ -8,6 +8,11 @@ import Image5 from "../../assets/img/img4.jpg"
 import Image6 from "../../assets/img/img5.jpg"
 import Image7 from "../../assets/img/img6.jpg"
 import Image8 from "../../assets/img/img7.jpg"
+import Image9 from "../../assets/img/img8.jpg"
+import Image10 from "../../assets/img/img9.jpg"
+import Image11 from "../../assets/img/img10.jpg"
+import Image12 from "../../assets/img/img11.jpg"
+import Image13 from "../../assets/img/img12.jpg"
 
 import "./gallery.css"
 
@@ -43,6 +48,26 @@ const data = [
     {
         id: 8,
         image: Image8,
+    },
+    {
+        id: 9,
+        image: Image9,
+    },
+    {
+        id: 10,
+        image: Image10,
+    },
+    {
+        id: 11,
+        image: Image11,
+    },
+    {
+        id: 12,
+        image: Image12,
+    },
+    {
+        id: 13,
+        image: Image13,
     },
 ];
 
